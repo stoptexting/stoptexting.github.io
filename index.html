@@ -1,1 +1,41 @@
-comign soun
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>E-Portfolio</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./assets/scripts/script.js"></script>
+    </head>
+
+    <body>
+        <div class="h-screen flex flex-col items-center justify-center bg-neutral-900">
+            <h1 class="text-white font-mono">welcome to my e-portfolio</h1>
+            <em id="goto_page" class='fas fa-angle-down animate__animated animate__pulse animate__infinite' href="#page" style='font-size:48px;color:white'></em>
+            
+        </div>
+
+        
+        <div id="page" class="h-screen flex flex-col items-center justify-center bg-white">
+            <h1 class="text-white font-mono text-lg bg-black px-3">find me on these websites, or find my projects below</h1>
+            <h1 id="github" class="text-black font-mono"><a id="github_link" href="unset">github</a></h1>
+            <h1 id="tryhackme" class="text-black font-mono"><a id="tryhackme_link" href="unset">tryhackme</a></h1>
+            <h1 id="rootme" class="text-black font-mono"><a id="rootme_link" href="unset">rootme</a></h1>
+            <h1 id="projects" class="text-black font-mono"><a id="projects_link" href="unset">projects</a></h1>
+        </div>
+
+        <div id="project_section" class="h-screen flex flex-col items-center justify-center bg-black">
+            <h1 class="text-black font-mono text-lg bg-white px-3">some of my greatest projects, click to see them</h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/stoptexting/criel-sur-mer-website-rework">criel-sur-mer-website-rework (web dev, 2022)</a></h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/stoptexting/chad-qui-prend">chad-qui-prend (java, 2022)</a></h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/stoptexting/DeluxeSweeper">deluxesweeper (.NET, 2022)</a></h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/stoptexting/excel-poll-fill">excel-poll-fill (python, 2022)</a></h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/stoptexting/solidity-sc">smart contract (solidity, 2022)</a></h1>
+            <h1 class="text-white font-mono"><a href="https://github.com/ElPodium/CityGuess">cityguess game (web dev, 2022)</a></h1>
+        </div>
+
+    </body>
+</html>
