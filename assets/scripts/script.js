@@ -45,5 +45,11 @@ function update_links() {
         $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
         return false;
     });
-    console.log('lol');
+
+    $('#go_back').on('click', function() {
+        let page = $(this).attr('href'); // Page cible
+        let speed = 1250; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+    });
 }
